@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="git://github.com/RedFIR" name="redfir" />
+
+	<default remote="redfir" revision="default" />
+
+	<project name="poky" remote="redfir" revision="dizzy" upstream="refs/heads/dizzy" />
+	<project name="meta-openembedded" path="poky/meta-openembedded" remote="redfir" revision="dizzy" upstream="refs/heads/dizzy"/>
+	<project name="meta-ti" revision="refs/heads/master"  remote="redfir" path="poky/meta-ti" />
+	<project name="meta-ros" revision="refs/heads/master"  remote="redfir" path="poky/meta-ros" />
+	<project name="meta-gumstix" revision="refs/heads/dizzy"  remote="redfir" path="poky/meta-gumstix" />
+	<project name="meta-gumstix-extras" revision="refs/heads/dizzy" remote="redfir" path="poky/meta-gumstix-extras" />
+</manifest>
+
