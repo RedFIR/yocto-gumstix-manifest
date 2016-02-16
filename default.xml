@@ -11,4 +11,3 @@
 	<project name="meta-gumstix" path="poky/meta-gumstix" remote="redfir" revision="refs/heads/dizzy" />
 	<project name="meta-gumstix-extras" path="poky/meta-gumstix-extras" remote="redfir" revision="refs/heads/dizzy" />
 </manifest>
-
