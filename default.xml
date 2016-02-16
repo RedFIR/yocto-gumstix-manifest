@@ -6,8 +6,8 @@
 
 	<project name="poky" remote="redfir" revision="refs/heads/dizzy" />
 	<project name="meta-openembedded" path="poky/meta-openembedded" remote="redfir" revision="refs/heads/dizzy" />
-	<project name="meta-ti" path="poky/meta-ti" remote="redfir" revision="refs/heads/master" />
-	<project name="meta-ros" path="poky/meta-ros" remote="redfir" revision="refs/heads/master" />
+	<project name="meta-ti" path="poky/meta-ti" remote="redfir" revision="d8cba916f310305fd116b455c0c04975cf6f5b7b" />
+	<project name="meta-ros" path="poky/meta-ros" remote="redfir" revision="fdb1b4df3b242b4827e50be256bd36f08ad37396" />
 	<project name="meta-gumstix" path="poky/meta-gumstix" remote="redfir" revision="refs/heads/dizzy" />
 	<project name="meta-gumstix-extras" path="poky/meta-gumstix-extras" remote="redfir" revision="refs/heads/dizzy" />
 </manifest>
